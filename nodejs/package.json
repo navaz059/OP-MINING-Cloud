@@ -1,0 +1,14 @@
+{
+  "name": "live3",
+  "description": "SAP HANA Academy - live3 - load Twitter stream to SAP HANA",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.7.*",
+	"request": "2.39.*",
+	"oauth": "0.9.*",
+	"twitter": "0.2.*",
+	"hdb": "0.3.*",
+	"emoji-strip": "0.0.3"
+  }
+}
