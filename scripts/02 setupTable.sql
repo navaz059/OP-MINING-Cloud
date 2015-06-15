@@ -1,0 +1,15 @@
+-- ENSURE CORRECT SCHEMA IS SET
+
+-- CREATE TWEETS TABLE
+CREATE COLUMN TABLE "Tweets" (
+	"id" VARCHAR(256) NOT NULL,
+	"created" TIMESTAMP,
+	"text" NVARCHAR(256),
+	"lang" VARCHAR(256),
+	"user" VARCHAR(256),
+	"replyUser" VARCHAR(256),
+	"retweetedUser" VARCHAR(256),
+	"lat" DOUBLE,
+	"lon" DOUBLE,
+	PRIMARY KEY ("id")
+);
